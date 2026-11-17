@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(180, 180, 180);
+    color: rgb(33, 37, 41);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-select {
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(33, 37, 41);
+    border: 1px solid rgb(206, 212, 218);
+}
+.card {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 4px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.btn-buy {
+    width: 100%;
+    background-color: rgb(220, 53, 69);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.btn-buy:hover {
+    background-color: rgb(187, 45, 59);
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    background-color: rgb(220, 53, 69);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+body.dark {
+    background-color: rgb(33, 37, 41);
+    color: rgb(255, 255, 255);
+}
+
+body.dark .form-select {
+    background-color: rgb(52, 58, 64);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(73, 80, 87);
+}
+
+body.dark .card {
+    background-color: rgb(52, 58, 64);
+    border: 1px solid rgb(73, 80, 87);
+    color: rgb(255, 255, 255);
+}
